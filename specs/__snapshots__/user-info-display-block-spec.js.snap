@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Gutenberg Block User Info Display Block successfully added to page 1`] = `
+"<!-- wp:wp-engine/gutenberg {\\"userGravatarUrl\\":\\"http://www.gravatar.com/avatar/?d=mp\\",\\"userBio\\":\\"Select A User\\",\\"userName\\":\\"Select A User\\"} -->
+<div class=\\"wp-block-wp-engine-gutenberg\\" style=\\"color:#000000;background-color:#FFFFFF\\"><div class=\\"block-section\\"><img src=\\"http://www.gravatar.com/avatar/?d=mp\\"/></div><div class=\\"block-section\\"><p>Select A User</p></div><div class=\\"block-section\\"><p>Select A User</p></div></div>
+<!-- /wp:wp-engine/gutenberg -->"
+`;

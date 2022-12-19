@@ -1,0 +1,33 @@
+{
+	"name": "usergutenberg",
+	"version": "0.1.0",
+	"description": "A Gutenberg block to display user data for authors, editors, and administrators.",
+	"author": "WPEngine Candidate",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e"
+	},
+	"devDependencies": {
+		"@types/md5": "^2.3.2",
+		"@typescript-eslint/eslint-plugin": "^5.43.0",
+		"@typescript-eslint/parser": "^5.43.0",
+		"@wordpress/e2e-test-utils": "^8.5.0",
+		"@wordpress/scripts": "^24.5.0",
+		"eslint": "^8.27.0",
+		"eslint-config-standard-with-typescript": "^23.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.5.1",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.31.10",
+		"md5": "^2.3.0",
+		"typescript": "^4.9.3"
+	}
+}

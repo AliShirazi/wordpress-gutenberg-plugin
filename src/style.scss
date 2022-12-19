@@ -1,0 +1,66 @@
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+	@media (min-width: #{$screen-sm-min}) {
+		@content;
+	}
+}
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// Small devices
+@mixin sm {
+	@media (min-width: #{$screen-sm-min}) {
+		@content;
+	}
+}
+
+.wp-block-wp-engine-gutenberg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-wrap: break-word;
+	width: auto;
+
+	@include sm {
+		width: 500px;
+		flex-direction: row;
+	}
+
+	margin: 10px auto 10px auto;
+
+	.block-section {
+		flex: 1 1 0;
+
+		p {
+			font-size: 14px;
+			text-align: center;
+		}
+
+		img {
+			display: block;
+		}
+
+	}
+}
