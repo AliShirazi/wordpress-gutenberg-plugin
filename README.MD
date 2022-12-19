@@ -18,7 +18,7 @@ Markdown parsed.
 
 ## Installation
 
-1. Run the followiing through the command line when inside the root plugin directory. 
+1. Run the following through the command line when inside the root plugin directory. 
 
 ```bash
 npm install
@@ -45,7 +45,7 @@ npm run lint:js
 The tests are specified in the specs folder in the project root. 
 They are built on the e2e-test-utils library. https://developer.wordpress.org/block-editor/reference-guides/packages/packages-e2e-test-utils/
 
-The recommended WordPress way is to setup the testing environment is to run a Wordpress docker container. Follow the instructions here:
+The recommended WordPress way to setup the testing environment is to run a Wordpress docker container. Follow the instructions here:
 
 [https://developer.wordpress.org/block-editor/getting-started/devenv/](https://developer.wordpress.org/block-editor/getting-started/devenv/)
 
